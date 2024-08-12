@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Sidebar from './Sidebar';
+// import Sidebar from './Sidebar';
 
 const Dashboard = () => {
   const [flashcards, setFlashcards] = useState([]);
@@ -34,7 +34,7 @@ const Dashboard = () => {
   return (
     <div className="flex">
       {/* Sidebar */}
-      <Sidebar />
+{/*       <Sidebar /> */}
 
       {/* Dashboard Content */}
       <div className="p-4 flex-1">
